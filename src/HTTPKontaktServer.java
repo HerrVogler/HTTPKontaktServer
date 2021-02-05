@@ -207,7 +207,6 @@ public class HTTPKontaktServer {
     public synchronized List<Kontakt> getKontakte() {
         Gson gson = new Gson();
         File file = new File(System.getProperty("user.home") + "/desktop/kontakte.txt");
-        System.out.println(file.getPath());
 
         if (!file.exists()) {
             try {
