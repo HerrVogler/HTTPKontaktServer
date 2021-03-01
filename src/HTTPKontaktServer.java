@@ -126,7 +126,7 @@ public class HTTPKontaktServer {
                         "<body>\n" +
                         "<h1>Kontaktformular</h1>\n" +
                         "<p><a href=\"/\">Zum Adressbuch</a></p>\n" +
-                        "<p>Eingaben fehlerhaft</p>\n" +
+                        "<p style=\"color:red;\">Eingaben fehlerhaft</p>\n" +
                         "<form method=\"post\">\n" +
                         "<label for=\"vorname\">Vorname</label><br>\n" +
                         "<input type=\"text\" id=\"vorname\" name=\"vorname\"><br>\n" +
